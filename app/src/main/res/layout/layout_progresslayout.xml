@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="165dp"
+    android:layout_height="165dp">
+    <include
+        android:id="@+id/progress"
+        layout="@layout/activity_detail_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+    <create.persion.com.prosslayout.CometView
+        android:id="@+id/play"
+        android:layout_width="45dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="82.5dp"
+        />
+</RelativeLayout>

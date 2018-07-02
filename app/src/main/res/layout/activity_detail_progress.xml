@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/bigView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <create.persion.com.prosslayout.ProgressView
+        app:circleBackColor="@color/redColor"
+        app:progressColor="@color/color_FEB2C6"
+        app:progressWidth="5dp"
+        app:progress="0"
+        android:layout_centerInParent="true"
+        android:id="@+id/good_progress"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_progress_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="往期年化"
+            android:textColor="@color/material_white"
+            android:textSize="@dimen/text_size_15" />
+
+        <TextView
+            android:id="@+id/tv_progress_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="15%"
+            android:textColor="@color/material_white"
+            android:textSize="@dimen/text_size_36" />
+
+        <TextView
+            android:id="@+id/tv_progress_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.5%+奖励5.5%"
+            android:textColor="@color/color_ff9c052c"
+            android:textSize="@dimen/text_size_13" />
+    </LinearLayout>
+
+</RelativeLayout>

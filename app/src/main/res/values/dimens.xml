@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">80dp</dimen>
+    <dimen name="list_padding">0dp</dimen>
+    <dimen name="shadow_width">0dp</dimen>
+    <dimen name="menu_text_width">150dp</dimen>
+
+    <dimen name="line_width">0.1dp</dimen>
+
+    <dimen name="main_popup">70dip</dimen>
+
+    <dimen name="invest_title">16sp</dimen>
+    <dimen name="invest_high_top">16dp</dimen>
+    <dimen name="invest_xian_top">16dp</dimen>
+    <dimen name="invest_particular">16dp</dimen>
+    <dimen name="invest_toppad">10dp</dimen>
+    <dimen name="invest_tv_particular">12sp</dimen>
+    <dimen name="invest_re_quan">185dp</dimen>
+
+    <dimen name="home_but_magtop">30dp</dimen>
+
+    <dimen name="historyscore_tb">10dp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_36">36sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+
+</resources>

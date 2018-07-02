@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressView">
+        // 圆形的背景颜色
+        <attr name="circleBackColor" format="color"/>
+        //进度条的颜色
+        <attr name="progressColor" format="color"/>
+        //进度条的宽度
+        <attr name="progressWidth" format="dimension"/>
+        //进度条的进度值
+        <attr name="progress" format="integer"/>
+
+    </declare-styleable>
+</resources>
